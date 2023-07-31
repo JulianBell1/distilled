@@ -1,4 +1,14 @@
 
+/* ------- WELCOME GRAPHICS ------- */
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(function() {
+    document.body.classList.add("show-main-content");
+  }, 3000); // Set the delay (in milliseconds) after which the welcome page overlay will fade out (e.g., 3000ms = 3 seconds)
+});
+
+
 /* ----- POPUP ----- */ 
   const openPopupBtn = document.querySelector('.hover-element');
   const closePopupBtn = document.querySelector('.closePopup');
